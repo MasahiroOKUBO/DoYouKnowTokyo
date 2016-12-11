@@ -34,36 +34,9 @@ public class FoodFragment extends Fragment {
 
         // Create a list of Spots
         final ArrayList<Spot> spots = new ArrayList<>();
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
+        spots.add(new Spot(R.string.spot_002_name, R.string.spot_002_desc, R.drawable.kamuse, R.string.spot_002_gio));
+        spots.add(new Spot(R.string.spot_002_name, R.string.spot_002_desc, R.drawable.kamuse, R.string.spot_002_gio));
+        spots.add(new Spot(R.string.spot_002_name, R.string.spot_002_desc, R.drawable.kamuse, R.string.spot_002_gio));
 
         SpotAdapter adapter = new SpotAdapter(getActivity(), spots, R.color.category_food);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
@@ -84,6 +57,7 @@ public class FoodFragment extends Fragment {
 
                 // Use intent and show map!
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
             }
         });

@@ -31,12 +31,9 @@ public class MiscFragment extends Fragment {
 
         // Create a list of Spots
         final ArrayList<Spot> spots = new ArrayList<>();
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
+        spots.add(new Spot(R.string.spot_004_name, R.string.spot_004_desc, R.drawable.my_room, R.string.spot_004_gio));
+        spots.add(new Spot(R.string.spot_004_name, R.string.spot_004_desc, R.drawable.my_room, R.string.spot_004_gio));
+        spots.add(new Spot(R.string.spot_004_name, R.string.spot_004_desc, R.drawable.my_room, R.string.spot_004_gio));
 
         SpotAdapter adapter = new SpotAdapter(getActivity(), spots, R.color.category_misc);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

@@ -4,9 +4,16 @@
     <string name="category_restaurant">Food</string>
     <string name="category_amusement">Amuse</string>
     <string name="category_miscellaneous">Misc</string>
-
-
     <string name="spot_001_name">Tokyo Tower</string>
     <string name="spot_001_desc">Some Description for Tokyo Tower.</string>
     <string name="spot_001_gio">geo:0,0?q=東京タワー</string>
+    <string name="spot_002_name">KAMUSE.</string>
+    <string name="spot_002_desc">Ramen. bad for health. but tasty.</string>
+    <string name="spot_002_gio">geo:35.707379, 139.763197</string>
+    <string name="spot_003_name">DiverCity-Tokyo</string>
+    <string name="spot_003_desc">Shopping Mall. Gundam here.</string>
+    <string name="spot_003_gio">geo:5.625014, 139.775112</string>
+    <string name="spot_004_name">My Room</string>
+    <string name="spot_004_desc">Simple.Just PC.</string>
+    <string name="spot_004_gio">geo:35.747104, 139.697728</string>
 </resources>

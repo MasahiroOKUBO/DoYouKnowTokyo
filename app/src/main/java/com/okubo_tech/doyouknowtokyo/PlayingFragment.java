@@ -36,12 +36,9 @@ public class PlayingFragment extends Fragment{
 
         // Create a list of Spots
         final ArrayList<Spot> spots = new ArrayList<>();
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
-        spots.add(new Spot(R.string.spot_001_name, R.string.spot_001_desc,
-                R.mipmap.tokyo_tower, R.string.spot_001_gio));
+        spots.add(new Spot(R.string.spot_003_name, R.string.spot_003_desc, R.drawable.diver_city, R.string.spot_003_gio));
+        spots.add(new Spot(R.string.spot_003_name, R.string.spot_003_desc, R.drawable.diver_city, R.string.spot_003_gio));
+        spots.add(new Spot(R.string.spot_003_name, R.string.spot_003_desc, R.drawable.diver_city, R.string.spot_003_gio));
 
         SpotAdapter adapter = new SpotAdapter(getActivity(), spots, R.color.category_playing);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
