@@ -2,13 +2,3 @@
 .gitignore
 .gradle/
 .idea/
-DoYouKnowTokyo.iml
-app/
-build.gradle
-build/
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-local.properties
-settings.gradle

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DoYouknowTokyo</string>
+    <string name="category_history">History</string>
+    <string name="category_restaurant">Food</string>
+    <string name="category_amusement">Amuse</string>
+    <string name="category_miscellaneous">Misc</string>
+
+
+    <string name="spot_001_name">Tokyo Tower</string>
+    <string name="spot_001_desc">Some Description for Tokyo Tower.</string>
+    <string name="spot_001_gio">geo:0,0?q=東京タワー</string>
+</resources>
